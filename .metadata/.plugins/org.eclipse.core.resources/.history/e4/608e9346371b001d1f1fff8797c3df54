@@ -1,0 +1,13 @@
+package br.com.primeirospassos;
+
+public class Cast {
+
+	public static void main(String[] args) {
+		double castDouble = 20.70;
+		
+		int valueInt = (int) castDouble;
+		System.out.println(valueInt);
+
+	}
+
+}
