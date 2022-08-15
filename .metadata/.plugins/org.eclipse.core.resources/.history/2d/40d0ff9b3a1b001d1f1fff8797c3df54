@@ -1,0 +1,10 @@
+package br.com.primeirospassos;
+
+public class EntryAndLeftData {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package br.com.primeirospassos;
+
+import java.util.Scanner;
+
+public class Imc {
+
+	public static void main(String[] args) {
+		double height,weight;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Digite seu peso: ");
+		weight = sc.nextDouble();
+		height = sc.nextDouble();
+		
+		System.out.println("Seu imc é: " + weight / (height  * height) );
+		
+	}
+
+}
