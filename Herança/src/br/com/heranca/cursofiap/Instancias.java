@@ -3,7 +3,11 @@ package br.com.heranca.cursofiap;
 public class Instancias {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Conta conta = new Conta(1704);
+		Conta cc = new ContaCorrente("Corrente", 1500);
+		
+		
+		
 
 	}
 
